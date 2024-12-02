@@ -1,6 +1,6 @@
 describe('E2E Test for Veterinarians Page', () => {
   beforeEach(() => {
-    cy.visit('http://host.docker.internal:8080');
+    cy.visit('hola');
   });
 
   it('Should navigate to the Veterinarians page and verify content', () => {
